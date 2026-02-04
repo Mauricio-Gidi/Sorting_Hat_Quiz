@@ -1,0 +1,1637 @@
+{
+  "scale": {
+    "min_value": 1,
+    "max_value": 5,
+    "labels": {
+      "min": "Strongly disagree",
+      "max": "Strongly agree"
+    }
+  },
+  "timing": {
+    "expected_time_sec": 10,
+    "rapid_threshold_sec": 4,
+    "down_weight_factor": 0.5
+  },
+  "traits": [
+    "COURAGE",
+    "AMBITION",
+    "LOYALTY",
+    "INTELLECT",
+    "CURIOSITY",
+    "CONFORMITY",
+    "RISK_TAKING",
+    "COMPASSION",
+    "ASSERTIVENESS",
+    "DILIGENCE"
+  ],
+  "forms": {
+    "quick": [
+      "L1",
+      "L18",
+      "L52",
+      "L14",
+      "L13",
+      "L53",
+      "L15",
+      "L25",
+      "L32",
+      "L6",
+      "L44",
+      "L59"
+    ],
+    "standard": [
+      "L1",
+      "L18",
+      "L45",
+      "L3",
+      "L53",
+      "L13",
+      "L49",
+      "L37",
+      "L25",
+      "L32",
+      "L15",
+      "L51",
+      "L8",
+      "L44",
+      "L16",
+      "L11",
+      "L20",
+      "L59",
+      "L57",
+      "L4",
+      "L17",
+      "L36",
+      "L34",
+      "L6",
+      "L60",
+      "L30",
+      "L14",
+      "L19",
+      "L42",
+      "L47"
+    ]
+  },
+  "items": [
+    {
+      "id": "L1",
+      "text": "I would bravely stand my ground against a dangerous foe to protect my friends.",
+      "trait_weights": {
+        "COURAGE": 1.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 1.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 1.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.2,
+        "thresholds": {
+          "b1": -2.0,
+          "b2": -1.2,
+          "b3": -0.4,
+          "b4": 0.4
+        }
+      }
+    },
+    {
+      "id": "L2",
+      "text": "I often venture into off-limits places or ancient ruins because I'm curious to discover magical secrets.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 1.0,
+        "CONFORMITY": -1.0,
+        "RISK_TAKING": 1.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.2,
+        "thresholds": {
+          "b1": -1.2,
+          "b2": -0.4,
+          "b3": 0.4,
+          "b4": 1.3
+        }
+      }
+    },
+    {
+      "id": "L3",
+      "text": "I would break an important school rule if it meant helping a friend in trouble.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 1.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": -1.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 1.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 0.9,
+        "thresholds": {
+          "b1": -2.0,
+          "b2": -1.2,
+          "b3": -0.4,
+          "b4": 0.4
+        }
+      }
+    },
+    {
+      "id": "L4",
+      "text": "I would use any means necessary to achieve a significant ambition or goal.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 1.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": -1.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.4,
+        "thresholds": {
+          "b1": 0.8,
+          "b2": 1.5,
+          "b3": 2.2,
+          "b4": 3.0
+        }
+      }
+    },
+    {
+      "id": "L5",
+      "text": "I am more interested in unraveling a complex magical mystery than in attending a social celebration or party.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 1.0,
+        "CURIOSITY": 1.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.5
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.1,
+        "thresholds": {
+          "b1": -0.8,
+          "b2": -0.2,
+          "b3": 0.4,
+          "b4": 1.2
+        }
+      }
+    },
+    {
+      "id": "L6",
+      "text": "I take pride in completing tasks thoroughly and never shy away from hard work, even when it comes to tedious magical chores.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.5,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.5,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 1.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.0,
+        "thresholds": {
+          "b1": -2.0,
+          "b2": -1.2,
+          "b3": -0.4,
+          "b4": 0.4
+        }
+      }
+    },
+    {
+      "id": "L7",
+      "text": "I have no trouble speaking up to a professor or authority figure if I feel something is unfair or wrong.",
+      "trait_weights": {
+        "COURAGE": 0.5,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": -0.5,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 1.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.3,
+        "thresholds": {
+          "b1": -0.5,
+          "b2": 0.0,
+          "b3": 0.5,
+          "b4": 1.0
+        }
+      }
+    },
+    {
+      "id": "L8",
+      "text": "I often go out of my way to comfort or help someone who is upset, even if I don’t know them well.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": -0.5,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 1.0,
+        "ASSERTIVENESS": 0.5,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.2,
+        "thresholds": {
+          "b1": -0.8,
+          "b2": -0.2,
+          "b3": 0.4,
+          "b4": 1.2
+        }
+      }
+    },
+    {
+      "id": "L9",
+      "text": "I seek out thrilling experiences in the magical world, even if they involve some danger or risk.",
+      "trait_weights": {
+        "COURAGE": 0.5,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": -0.5,
+        "RISK_TAKING": 1.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.2,
+        "thresholds": {
+          "b1": -1.2,
+          "b2": -0.4,
+          "b3": 0.4,
+          "b4": 1.3
+        }
+      }
+    },
+    {
+      "id": "L10",
+      "text": "I aspire to hold positions of power or leadership in the magical community someday.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 1.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.5,
+        "DILIGENCE": 0.5
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.1,
+        "thresholds": {
+          "b1": -0.8,
+          "b2": -0.2,
+          "b3": 0.4,
+          "b4": 1.2
+        }
+      }
+    },
+    {
+      "id": "L11",
+      "text": "I believe in following the established rules and traditions of the magical world without question.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": -0.5,
+        "LOYALTY": 0.5,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 1.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 0.8,
+        "thresholds": {
+          "b1": -2.0,
+          "b2": -1.2,
+          "b3": -0.4,
+          "b4": 0.4
+        }
+      }
+    },
+    {
+      "id": "L12",
+      "text": "For solving problems, I rely on logic and strategy rather than on emotion or gut feelings.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 1.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": -0.5,
+        "COMPASSION": -0.5,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.0,
+        "thresholds": {
+          "b1": -1.0,
+          "b2": -0.3,
+          "b3": 0.3,
+          "b4": 1.0
+        }
+      }
+    },
+    {
+      "id": "L13",
+      "text": "I sometimes abandon a boring assignment to pursue a fascinating magical idea or experiment that captures my interest.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 1.0,
+        "CONFORMITY": -0.5,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": -1.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.3,
+        "thresholds": {
+          "b1": 0.5,
+          "b2": 1.2,
+          "b3": 2.0,
+          "b4": 2.8
+        }
+      }
+    },
+    {
+      "id": "L14",
+      "text": "I would lie to a professor or the authorities if it meant protecting a friend from getting into trouble.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 1.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": -1.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.5,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.1,
+        "thresholds": {
+          "b1": -0.5,
+          "b2": 0.0,
+          "b3": 0.5,
+          "b4": 1.0
+        }
+      }
+    },
+    {
+      "id": "L15",
+      "text": "I prefer to work alone on important projects so I can stand out, rather than collaborate and share credit.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 1.0,
+        "LOYALTY": -0.5,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.5,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.3,
+        "thresholds": {
+          "b1": 0.0,
+          "b2": 0.8,
+          "b3": 1.6,
+          "b4": 2.4
+        }
+      }
+    },
+    {
+      "id": "L16",
+      "text": "In my studies of magic, I often review my notes and practice spells until late at night rather than turn in early.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.5,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.5,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 1.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.1,
+        "thresholds": {
+          "b1": -1.2,
+          "b2": -0.4,
+          "b3": 0.4,
+          "b4": 1.3
+        }
+      }
+    },
+    {
+      "id": "L17",
+      "text": "I tend to act first and think later when facing an unexpected magical situation.",
+      "trait_weights": {
+        "COURAGE": 0.5,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": -0.5,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 1.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.5,
+        "thresholds": {
+          "b1": 0.2,
+          "b2": 1.0,
+          "b3": 1.8,
+          "b4": 2.6
+        }
+      }
+    },
+    {
+      "id": "L18",
+      "text": "I would be willing to deceive someone if it helped me accomplish an important objective.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.5,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": -1.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": -0.5,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.4,
+        "thresholds": {
+          "b1": 0.8,
+          "b2": 1.5,
+          "b3": 2.2,
+          "b4": 3.0
+        }
+      }
+    },
+    {
+      "id": "L19",
+      "text": "I often find myself reading about obscure magical subjects just because I find them intriguing, not because it’s required.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.5,
+        "CURIOSITY": 1.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.5
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.2,
+        "thresholds": {
+          "b1": -0.8,
+          "b2": -0.2,
+          "b3": 0.4,
+          "b4": 1.2
+        }
+      }
+    },
+    {
+      "id": "L20",
+      "text": "If I witnessed someone breaking the rules in a way that hurt others, I would confront them rather than stay silent.",
+      "trait_weights": {
+        "COURAGE": 1.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.5,
+        "ASSERTIVENESS": 0.5,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.1,
+        "thresholds": {
+          "b1": -0.8,
+          "b2": -0.2,
+          "b3": 0.4,
+          "b4": 1.2
+        }
+      }
+    },
+    {
+      "id": "L21",
+      "text": "I enjoy questioning the way things are done and often suggest new approaches, even when tradition says otherwise.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.5,
+        "CONFORMITY": -1.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.5,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.2,
+        "thresholds": {
+          "b1": -1.2,
+          "b2": -0.4,
+          "b3": 0.4,
+          "b4": 1.3
+        }
+      }
+    },
+    {
+      "id": "L22",
+      "text": "I tend to speak my mind plainly, even if it might upset someone.",
+      "trait_weights": {
+        "COURAGE": 0.5,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": -0.5,
+        "ASSERTIVENESS": 1.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.3,
+        "thresholds": {
+          "b1": -0.5,
+          "b2": 0.0,
+          "b3": 0.5,
+          "b4": 1.0
+        }
+      }
+    },
+    {
+      "id": "L23",
+      "text": "I would never abandon my teammates for personal glory during a Quidditch match.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": -0.5,
+        "LOYALTY": 1.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.5,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 0.9,
+        "thresholds": {
+          "b1": -2.5,
+          "b2": -1.5,
+          "b3": -0.5,
+          "b4": 0.5
+        }
+      }
+    },
+    {
+      "id": "L24",
+      "text": "As a leader, I would prioritize the well-being of my group over achieving goals at any cost.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": -0.5,
+        "LOYALTY": 0.5,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 1.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 0.9,
+        "thresholds": {
+          "b1": -2.0,
+          "b2": -1.2,
+          "b3": -0.4,
+          "b4": 0.4
+        }
+      }
+    },
+    {
+      "id": "L25",
+      "text": "I have a bit of a rebellious streak, but only when I feel a rule or law is unjust.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": -1.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.5,
+        "ASSERTIVENESS": 0.5,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.1,
+        "thresholds": {
+          "b1": -2.0,
+          "b2": -1.2,
+          "b3": -0.4,
+          "b4": 0.4
+        }
+      }
+    },
+    {
+      "id": "L26",
+      "text": "I prefer coming up with a clever plan over rushing in wand-blazing when facing a challenge.",
+      "trait_weights": {
+        "COURAGE": -0.5,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 1.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": -0.5,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.5
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.0,
+        "thresholds": {
+          "b1": -2.5,
+          "b2": -1.5,
+          "b3": -0.5,
+          "b4": 0.5
+        }
+      }
+    },
+    {
+      "id": "L27",
+      "text": "If befriending someone influential could benefit me, I would do it even if I didn’t truly like them.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 1.0,
+        "LOYALTY": -0.5,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": -0.5,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.5,
+        "thresholds": {
+          "b1": 1.0,
+          "b2": 1.8,
+          "b3": 2.6,
+          "b4": 3.4
+        }
+      }
+    },
+    {
+      "id": "L28",
+      "text": "I sometimes take reckless shortcuts in my spellwork if I’m confident it will get the job done faster.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.5,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 1.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": -1.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.3,
+        "thresholds": {
+          "b1": 1.0,
+          "b2": 1.8,
+          "b3": 2.6,
+          "b4": 3.4
+        }
+      }
+    },
+    {
+      "id": "L29",
+      "text": "If a magical creature were suffering, I would secretly take care of it even if it was against the rules.",
+      "trait_weights": {
+        "COURAGE": 0.5,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": -1.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 1.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.2,
+        "thresholds": {
+          "b1": -0.8,
+          "b2": -0.2,
+          "b3": 0.4,
+          "b4": 1.2
+        }
+      }
+    },
+    {
+      "id": "L30",
+      "text": "I often end up leading group projects because no one else steps up, even if it means I have to push others to do their part.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.5,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 1.0,
+        "DILIGENCE": 0.5
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.1,
+        "thresholds": {
+          "b1": -0.8,
+          "b2": -0.2,
+          "b3": 0.4,
+          "b4": 1.2
+        }
+      }
+    },
+    {
+      "id": "L31",
+      "text": "I care more about gaining knowledge than receiving praise or recognition for it.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": -1.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 1.0,
+        "CURIOSITY": 0.5,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.0,
+        "thresholds": {
+          "b1": -2.0,
+          "b2": -1.2,
+          "b3": -0.4,
+          "b4": 0.4
+        }
+      }
+    },
+    {
+      "id": "L32",
+      "text": "I am often the first to volunteer for a daunting task before fully thinking through the details.",
+      "trait_weights": {
+        "COURAGE": 1.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": -0.5,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.5,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.4,
+        "thresholds": {
+          "b1": -0.8,
+          "b2": -0.2,
+          "b3": 0.4,
+          "b4": 1.2
+        }
+      }
+    },
+    {
+      "id": "L33",
+      "text": "I can’t ignore it when someone is struggling with a spell; even if I’m busy, I’ll stop to help them.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.5,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 1.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": -0.5
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 0.9,
+        "thresholds": {
+          "b1": -2.0,
+          "b2": -1.2,
+          "b3": -0.4,
+          "b4": 0.4
+        }
+      }
+    },
+    {
+      "id": "L34",
+      "text": "I follow my own moral compass, even if it means contradicting the official rules.",
+      "trait_weights": {
+        "COURAGE": 0.5,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": -1.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.5,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.1,
+        "thresholds": {
+          "b1": -2.0,
+          "b2": -1.2,
+          "b3": -0.4,
+          "b4": 0.4
+        }
+      }
+    },
+    {
+      "id": "L35",
+      "text": "I would turn down an unfair advantage in a competition, even if it would ensure my victory.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": -1.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.5,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.5
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.0,
+        "thresholds": {
+          "b1": -2.0,
+          "b2": -1.2,
+          "b3": -0.4,
+          "b4": 0.4
+        }
+      }
+    },
+    {
+      "id": "L36",
+      "text": "In a dangerous situation, I tend to rely on quick wit and clever spells rather than brute force or bravado.",
+      "trait_weights": {
+        "COURAGE": -0.5,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 1.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": -0.5,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.2,
+        "thresholds": {
+          "b1": -1.2,
+          "b2": -0.4,
+          "b3": 0.4,
+          "b4": 1.3
+        }
+      }
+    },
+    {
+      "id": "L37",
+      "text": "I would remain loyal to a friend even if they did something that everyone else disapproves of.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 1.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": -0.5,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.5,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.2,
+        "thresholds": {
+          "b1": -0.8,
+          "b2": -0.2,
+          "b3": 0.4,
+          "b4": 1.2
+        }
+      }
+    },
+    {
+      "id": "L38",
+      "text": "I prefer to have a well-organized plan before casting a complex spell, rather than \"winging it\" spontaneously.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.5,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.5,
+        "RISK_TAKING": -0.5,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 1.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.0,
+        "thresholds": {
+          "b1": -2.5,
+          "b2": -1.5,
+          "b3": -0.5,
+          "b4": 0.5
+        }
+      }
+    },
+    {
+      "id": "L39",
+      "text": "If I had the opportunity to gain great power through dark magic, I would refuse it because of the moral cost.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": -1.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.5,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.5,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 0.8,
+        "thresholds": {
+          "b1": -2.0,
+          "b2": -1.2,
+          "b3": -0.4,
+          "b4": 0.4
+        }
+      }
+    },
+    {
+      "id": "L40",
+      "text": "I find it hard to resist exploring a mysterious place, even when I’m warned of potential dangers.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 1.0,
+        "CONFORMITY": -0.5,
+        "RISK_TAKING": 0.5,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.3,
+        "thresholds": {
+          "b1": -0.5,
+          "b2": 0.0,
+          "b3": 0.5,
+          "b4": 1.5
+        }
+      }
+    },
+    {
+      "id": "L41",
+      "text": "I would sacrifice a personal achievement if it meant helping someone in dire need.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": -1.0,
+        "LOYALTY": 0.5,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 1.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 0.8,
+        "thresholds": {
+          "b1": -2.5,
+          "b2": -1.5,
+          "b3": -0.5,
+          "b4": 0.5
+        }
+      }
+    },
+    {
+      "id": "L42",
+      "text": "In a duel, I’d rather outsmart my opponent with an unexpected spell than try to overpower them through sheer force.",
+      "trait_weights": {
+        "COURAGE": -0.5,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 1.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.5,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.3,
+        "thresholds": {
+          "b1": -1.2,
+          "b2": -0.4,
+          "b3": 0.4,
+          "b4": 1.3
+        }
+      }
+    },
+    {
+      "id": "L43",
+      "text": "I don't mind being considered \"odd\" or different; I stay true to my unique magical interests.",
+      "trait_weights": {
+        "COURAGE": 0.5,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.5,
+        "CONFORMITY": -1.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.0,
+        "thresholds": {
+          "b1": -1.2,
+          "b2": -0.4,
+          "b3": 0.4,
+          "b4": 1.3
+        }
+      }
+    },
+    {
+      "id": "L44",
+      "text": "I believe consistent hard work beats raw talent when it comes to mastering magic.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.5,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.5,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 1.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.0,
+        "thresholds": {
+          "b1": -2.0,
+          "b2": -1.2,
+          "b3": -0.4,
+          "b4": 0.4
+        }
+      }
+    },
+    {
+      "id": "L45",
+      "text": "My friends often tell me I’m too cautious, but I’d rather be safe than sorry in dangerous situations.",
+      "trait_weights": {
+        "COURAGE": -0.5,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.5,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": -1.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.3,
+        "thresholds": {
+          "b1": 0.0,
+          "b2": 0.8,
+          "b3": 1.6,
+          "b4": 2.4
+        }
+      }
+    },
+    {
+      "id": "L46",
+      "text": "I would defend a friend publicly, even if I thought they were wrong, and then advise them in private afterward.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 1.0,
+        "INTELLECT": 0.5,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": -0.5,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.1,
+        "thresholds": {
+          "b1": -0.8,
+          "b2": -0.2,
+          "b3": 0.4,
+          "b4": 1.2
+        }
+      }
+    },
+    {
+      "id": "L47",
+      "text": "I get frustrated if I’m not moving up or improving as fast as I’d like in my magical pursuits.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 1.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.5,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.5
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.3,
+        "thresholds": {
+          "b1": -0.8,
+          "b2": -0.2,
+          "b3": 0.4,
+          "b4": 1.2
+        }
+      }
+    },
+    {
+      "id": "L48",
+      "text": "I tend to forgive easily, even when someone has wronged me, rather than seek revenge.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": -0.5,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 1.0,
+        "ASSERTIVENESS": -0.5,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 0.9,
+        "thresholds": {
+          "b1": -2.5,
+          "b2": -1.5,
+          "b3": -0.5,
+          "b4": 0.5
+        }
+      }
+    },
+    {
+      "id": "L49",
+      "text": "If a close friend’s story conflicted with the evidence, I would want to see proof before deciding what to believe.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": -0.5,
+        "INTELLECT": 1.0,
+        "CURIOSITY": 0.5,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.4,
+        "thresholds": {
+          "b1": -0.5,
+          "b2": 0.0,
+          "b3": 0.5,
+          "b4": 1.5
+        }
+      }
+    },
+    {
+      "id": "L50",
+      "text": "I generally avoid breaking minor rules or sneaking out at night; it’s just not worth the trouble.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 1.0,
+        "RISK_TAKING": -1.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.5
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.0,
+        "thresholds": {
+          "b1": -2.5,
+          "b2": -1.5,
+          "b3": -0.5,
+          "b4": 0.5
+        }
+      }
+    },
+    {
+      "id": "L51",
+      "text": "If I’m curious about something, I’ll ask questions even when others remain silent, because I want to understand everything.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 1.0,
+        "CONFORMITY": -0.5,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.5,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.4,
+        "thresholds": {
+          "b1": 0.0,
+          "b2": 0.8,
+          "b3": 1.6,
+          "b4": 2.4
+        }
+      }
+    },
+    {
+      "id": "L52",
+      "text": "I enjoy experimenting with new spells just to see what they do, even if the outcomes are unpredictable.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 1.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.5,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.3,
+        "thresholds": {
+          "b1": 0.5,
+          "b2": 1.2,
+          "b3": 2.0,
+          "b4": 2.8
+        }
+      }
+    },
+    {
+      "id": "L53",
+      "text": "I have no hesitation taking charge in a crisis while others are still panicking.",
+      "trait_weights": {
+        "COURAGE": 0.5,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.5,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 1.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.5,
+        "thresholds": {
+          "b1": 0.2,
+          "b2": 1.0,
+          "b3": 1.8,
+          "b4": 2.6
+        }
+      }
+    },
+    {
+      "id": "L54",
+      "text": "I love riddles and puzzles, and I often spend free time trying to solve challenging magical enigmas.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 1.0,
+        "CURIOSITY": 0.5,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.5
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.2,
+        "thresholds": {
+          "b1": -1.2,
+          "b2": -0.4,
+          "b3": 0.4,
+          "b4": 1.3
+        }
+      }
+    },
+    {
+      "id": "L55",
+      "text": "If my group was frightened to face a haunted catacomb, I would volunteer to go first to encourage them.",
+      "trait_weights": {
+        "COURAGE": 1.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.5,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.5,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.3,
+        "thresholds": {
+          "b1": 0.5,
+          "b2": 1.2,
+          "b3": 2.0,
+          "b4": 2.8
+        }
+      }
+    },
+    {
+      "id": "L56",
+      "text": "I sometimes come across as blunt because I prefer telling hard truths over comforting someone with a lie.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.5,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": -0.5,
+        "ASSERTIVENESS": 1.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.4,
+        "thresholds": {
+          "b1": -0.8,
+          "b2": -0.2,
+          "b3": 0.4,
+          "b4": 1.2
+        }
+      }
+    },
+    {
+      "id": "L57",
+      "text": "I often pursue knowledge for its own sake, not because it will benefit my grades or future career.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": -0.5,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.5,
+        "CURIOSITY": 1.0,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.3,
+        "thresholds": {
+          "b1": -1.2,
+          "b2": -0.4,
+          "b3": 0.4,
+          "b4": 1.3
+        }
+      }
+    },
+    {
+      "id": "L58",
+      "text": "I meticulously double-check my potion recipes rather than improvising on the fly.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.5,
+        "RISK_TAKING": -0.5,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.0,
+        "DILIGENCE": 1.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.0,
+        "thresholds": {
+          "b1": -2.5,
+          "b2": -1.5,
+          "b3": -0.5,
+          "b4": 0.5
+        }
+      }
+    },
+    {
+      "id": "L59",
+      "text": "I sometimes have trouble saying no to people because I worry about hurting their feelings.",
+      "trait_weights": {
+        "COURAGE": 0.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.0,
+        "CONFORMITY": 0.5,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 1.0,
+        "ASSERTIVENESS": -1.0,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.1,
+        "thresholds": {
+          "b1": -1.0,
+          "b2": -0.5,
+          "b3": 0.5,
+          "b4": 1.5
+        }
+      }
+    },
+    {
+      "id": "L60",
+      "text": "I'm often the first to step forward and investigate a strange phenomenon when others hesitate.",
+      "trait_weights": {
+        "COURAGE": 1.0,
+        "AMBITION": 0.0,
+        "LOYALTY": 0.0,
+        "INTELLECT": 0.0,
+        "CURIOSITY": 0.5,
+        "CONFORMITY": 0.0,
+        "RISK_TAKING": 0.0,
+        "COMPASSION": 0.0,
+        "ASSERTIVENESS": 0.5,
+        "DILIGENCE": 0.0
+      },
+      "irt": {
+        "model": "GRM",
+        "a": 1.4,
+        "thresholds": {
+          "b1": 0.0,
+          "b2": 0.8,
+          "b3": 1.6,
+          "b4": 2.4
+        }
+      }
+    }
+  ]
+}

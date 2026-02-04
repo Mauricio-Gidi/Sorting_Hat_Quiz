@@ -1,0 +1,632 @@
+{
+  "houses": [
+    "GRYFFINDOR",
+    "SLYTHERIN",
+    "HUFFLEPUFF",
+    "RAVENCLAW"
+  ],
+  "timing": {
+    "expected_time_sec": 12,
+    "rapid_threshold_sec": 5,
+    "down_weight_factor": 0.5
+  },
+  "items": [
+    {
+      "id": "FC_G_S_1",
+      "house_pair": ["GRYFFINDOR", "SLYTHERIN"],
+      "stem": "High above the Quidditch pitch in the final match for the House Cup, you spot a teammate knocked off their broom by a Bludger. At the same time, you see the Golden Snitch glittering just a few meters ahead.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Veer away from the Snitch to dive and catch your falling teammate, prioritizing their safety over clinching the victory.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Grit your teeth and surge forward to seize the Snitch for a triumphant win, trusting another teammate or a referee will assist your injured friend.",
+          "house": "SLYTHERIN"
+        }
+      ]
+    },
+    {
+      "id": "FC_G_S_2",
+      "house_pair": ["GRYFFINDOR", "SLYTHERIN"],
+      "stem": "Exploring a hidden passage late one evening, you stumble upon a cursed jeweled dagger humming with dark magic. It’s clearly powerful – and forbidden.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Take the dagger straight to Professor McGonagall, openly admitting you found it so that it can be secured safely, even if it means answering difficult questions about why you were sneaking around.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Hide the dagger and study its enchantments in secret, intrigued by the potential power it holds and hoping to unlock its secrets for your own strategic advantage.",
+          "house": "SLYTHERIN"
+        }
+      ]
+    },
+    {
+      "id": "FC_G_S_3",
+      "house_pair": ["GRYFFINDOR", "SLYTHERIN"],
+      "stem": "A notorious classmate has been spreading cruel rumors about your best friend to gain social leverage.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confront the rumormonger publicly and boldly in the Great Hall, calling out their lies and defending your friend’s honor on the spot, no matter the backlash.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Quietly gather proof of the truth and devise a subtle plan to expose the rumor as false (or the gossip as untrustworthy) at just the right moment, undermining their scheme without direct confrontation.",
+          "house": "SLYTHERIN"
+        }
+      ]
+    },
+    {
+      "id": "FC_G_S_4",
+      "house_pair": ["GRYFFINDOR", "SLYTHERIN"],
+      "stem": "Your study group is struggling with a Dark Arts practical exam challenge: dispelling a shadow creature. Time is running out and everyone seems paralyzed on what to do.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Step up and take charge with daring improvisation – you cast spells at the creature on the fly and rally your classmates to follow your lead in an all-out, courageous effort to banish it.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Signal everyone to hold back as you formulate a clever strategy – assigning tasks based on each person’s strengths and perhaps keeping a sneaky backup plan in case something goes wrong, ensuring victory through shrewd coordination.",
+          "house": "SLYTHERIN"
+        }
+      ]
+    },
+    {
+      "id": "FC_G_S_5",
+      "house_pair": ["GRYFFINDOR", "SLYTHERIN"],
+      "stem": "You discover that another student stole your intricately carved wand case as a “prank” and is bragging about it to friends.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confront the culprit face-to-face in front of their cronies, demanding they return what’s yours and boldly standing up to their theft with righteous anger.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Cook up an ingenious way to retrieve your case without them even realizing – perhaps a covert charm to summon it back or a prank of your own – so you reclaim your property and leave them wondering how you outsmarted them.",
+          "house": "SLYTHERIN"
+        }
+      ]
+    },
+    {
+      "id": "FC_G_S_6",
+      "house_pair": ["GRYFFINDOR", "SLYTHERIN"],
+      "stem": "While sneaking into an abandoned dungeon below the castle, you and a friend trigger a trap that seals the exits and conjures a towering stone guardian blocking your path.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stand in front of your friend and engage the guardian in a duel, casting the boldest spells you know—better to risk yourself in a daring attempt to break the enchantment than do nothing.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Hold your friend back and analyze the guardian’s movements, looking for a weakness or hidden rune to disable it. You prefer to outwit the enchanted guardian with a crafty tactic rather than brute force.",
+          "house": "SLYTHERIN"
+        }
+      ]
+    },
+
+    {
+      "id": "FC_G_H_1",
+      "house_pair": ["GRYFFINDOR", "HUFFLEPUFF"],
+      "stem": "Late at night, you hear distressed whinnies echoing from the edge of the Forbidden Forest – it sounds like a young unicorn caught in some trap. However, curfew has long since passed and students must stay in their dorms.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sneak out immediately, racing toward the forest to attempt a daring rescue by yourself. Breaking a school rule is a risk you’re willing to take to bravely help the creature in need right now.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Fight the urge to dash into danger and instead plan to alert Hagrid or a professor first thing at dawn. You care deeply about the unicorn’s safety but believe following school rules and getting experienced help is the most responsible course.",
+          "house": "HUFFLEPUFF"
+        }
+      ]
+    },
+    {
+      "id": "FC_G_H_2",
+      "house_pair": ["GRYFFINDOR", "HUFFLEPUFF"],
+      "stem": "In Potions class, a brewing mishap causes your partner’s cauldron to explode into flames, splattering hot potion across the desk and floor.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Instantly jump into action – you grab your wand and cast the first dousing charm that comes to mind, unbothered by the risk of getting singed or yelled at, as long as you can courageously snuff out the fire.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Quickly pull your partner back to safety and call out for Professor Snape’s attention, making sure everyone stays calm and follows proper emergency steps. You focus on protecting your classmates and trust the professor’s expertise to handle the blaze.",
+          "house": "HUFFLEPUFF"
+        }
+      ]
+    },
+    {
+      "id": "FC_G_H_3",
+      "house_pair": ["GRYFFINDOR", "HUFFLEPUFF"],
+      "stem": "An inter-house dueling tournament is on the horizon, and your house must choose its champion duelist.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Volunteer yourself as the duelist without hesitation – you’re confident, eager to brave any opponent, and ready to bring glory to your house through bold combat in the ring.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Offer to help train and support whichever teammate is chosen, rather than seeking the spotlight. You’ll work hard on tactics and cheer them on, believing the team effort and collective success matter more than who gets the title of champion.",
+          "house": "HUFFLEPUFF"
+        }
+      ]
+    },
+    {
+      "id": "FC_G_H_4",
+      "house_pair": ["GRYFFINDOR", "HUFFLEPUFF"],
+      "stem": "After weeks of collaboration, your group of four successfully brewed a challenging Polyjuice Potion, and the professor is delighted. In truth, you contributed the most to its success with your daring ideas and quick decision-making under pressure.",
+      "options": [
+        {
+          "key": "A",
+          "text": "When the professor singles you out for praise, you accept it proudly with a grin. You don’t mind being recognized as the bold driving force of the team – you’ll take the accolades you earned and maybe inspire others by your example.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Immediately give credit to everyone in the group, insisting that it was a team effort. You modestly downplay your own contributions, feeling happier seeing your whole team appreciated together rather than basking in individual praise.",
+          "house": "HUFFLEPUFF"
+        }
+      ]
+    },
+    {
+      "id": "FC_G_H_5",
+      "house_pair": ["GRYFFINDOR", "HUFFLEPUFF"],
+      "stem": "Two of your close friends – both in your house – have gotten into a heated argument and have stopped speaking to each other. The rift is upsetting everyone in your friend circle.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Call them both out to the courtyard for an honest, face-to-face talk. You take charge and urge them to air their grievances immediately, unafraid that some feelings might get bruised in the process of confronting the issue head-on to fix it.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Spend time with each friend separately, gently comforting them and encouraging empathy. You prefer a patient, peaceful approach – quietly guiding them toward understanding each other again without forcing a dramatic showdown.",
+          "house": "HUFFLEPUFF"
+        }
+      ]
+    },
+    {
+      "id": "FC_G_H_6",
+      "house_pair": ["GRYFFINDOR", "HUFFLEPUFF"],
+      "stem": "On a rare free weekend at Hogwarts, you have no homework and the run of the castle for the day.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Round up a few adventurous mates and sneak into a part of the castle you’ve never explored (perhaps the locked tower or that secret tunnel behind the kitchen). A day of thrilling escapades and maybe a rule-bending adventure is your ideal way to spend the free time.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Invite your friends to a cozy afternoon in the common room, complete with freshly baked cookies, butterbeer, and a game of Exploding Snap. You relish the warm, relaxing bonding time and the simple pleasure of everyone feeling included and at ease.",
+          "house": "HUFFLEPUFF"
+        }
+      ]
+    },
+
+    {
+      "id": "FC_G_R_1",
+      "house_pair": ["GRYFFINDOR", "RAVENCLAW"],
+      "stem": "Wandering through a long-forgotten wing of the castle, you suddenly come face-to-face with a mysterious Sphinx guarding the corridor. It gives you a choice: solve its complex riddle or duel it to pass through.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Draw your wand and challenge the Sphinx without hesitation, choosing the trial by combat. You’d rather rely on your nerve and dueling prowess to overcome the creature directly than risk getting the riddle wrong.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Accept the riddle challenge, taking a moment to gather your wits. You prefer to engage the Sphinx with brainpower – unraveling its puzzle with logic and knowledge – instead of resorting to potentially unnecessary violence.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+    {
+      "id": "FC_G_R_2",
+      "house_pair": ["GRYFFINDOR", "RAVENCLAW"],
+      "stem": "It’s the evening before your O.W.L. exams, which are crucial for your future. Just as you settle in to review your notes one last time, your best friend shows up distraught — his pet owl has gone missing in the Forbidden Forest, and he begs for your help finding it before something happens.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Close your books and grab your wand, joining your friend on a nighttime search through the forest. You believe being there for your friend (and possibly saving a beloved pet from danger) is more important than a few more hours of cramming, even if it means you’ll be tired for the exam.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Gently apologize and explain that you’ve been preparing for these exams for too long to risk it all now. You advise your friend to alert a professor or the gamekeeper about the missing owl, while you stay and methodically review your notes – reasoning that keeping your academic performance strong will help both of you in the long run.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+    {
+      "id": "FC_G_R_3",
+      "house_pair": ["GRYFFINDOR", "RAVENCLAW"],
+      "stem": "Whispers around school say that the ghost of an old Hogwarts headmaster is haunting the restricted section of the library. Midnight is when he supposedly appears, offering answers to those brave enough to meet him.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Come midnight, you slip into the library under a cloak and confront the spectral headmaster directly. Heart pounding, you’d rather face the unknown head-on – who knows, maybe you can even help put the restless ghost to peace after hearing what he has to say.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Before doing anything rash, you spend your evening researching that headmaster’s era and known ghostly behaviors. Armed with knowledge (and waiting for a safer opportunity), you might approach the restricted section more cautiously later, or find a logical explanation for the rumors without risking a rule violation at midnight.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+    {
+      "id": "FC_G_R_4",
+      "house_pair": ["GRYFFINDOR", "RAVENCLAW"],
+      "stem": "During a magical scavenger hunt, your team enters a chamber where an array of tiles on the floor begin shifting in perplexing patterns – clearly a puzzle that needs solving before you can cross.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Without overthinking it, stride onto the tiles to test a bold path, encouraging your teammates to follow your lead quickly. You tackle the puzzle through action and brave experimentation, figuring you’ll improvise as you go and trust your instincts to carry the day.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Hold your team back for a moment to carefully observe the tile movements. You analyze the sequence and discuss possibilities with your teammates, preferring to solve the puzzle with clever reasoning and a plan, stepping forward only once you’ve cracked the pattern.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+    {
+      "id": "FC_G_R_5",
+      "house_pair": ["GRYFFINDOR", "RAVENCLAW"],
+      "stem": "You come across an old spellbook in the Room of Requirement containing a highly advanced charm that neither you nor your classmates have seen before.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Excited by the challenge, you immediately attempt to cast the charm then and there. Hands-on practice is how you thrive, and you’re courageous (or curious) enough to risk a misfire because the thrill of possibly performing a powerful new spell outweighs your caution.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Resist the urge to cast it right away. Instead, you take the book to a quiet corner and study the charm’s theory, annotations, and wand movements in detail. You prefer to thoroughly understand the magic first, ensuring you learn it properly and safely before trying it out.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+    {
+      "id": "FC_G_R_6",
+      "house_pair": ["GRYFFINDOR", "RAVENCLAW"],
+      "stem": "The Headmaster institutes a strict new rule: no student organizations can meet without a staff member present, citing “safety concerns,” but you feel this stifles creativity and student independence.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Organize a small rebellion. You and like-minded friends openly defy the rule by holding an unsupervised gathering for your study group or club, prepared to face detention if it means making a statement. Taking a stand is worth it to protest what you see as an unreasonable restriction.",
+          "house": "GRYFFINDOR"
+        },
+        {
+          "key": "B",
+          "text": "Find a clever workaround. If official club meetings are banned, you frame your gathering as a “study session” or devise a rotating tutoring meetup that technically doesn’t break the new rule. You’ll obey the letter of the rule but use your wit to maintain the spirit of your group’s activities without drawing punitive attention.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+
+    {
+      "id": "FC_S_H_1",
+      "house_pair": ["SLYTHERIN", "HUFFLEPUFF"],
+      "stem": "Your house is neck-and-neck with another for the House Cup, and it’s the final evening. In a stroke of luck, you discover an unclaimed extra-credit essay lying on a desk that, if submitted under your name, could earn just enough points to secure your victory.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Turn in the essay as if it were your own, quietly adding those points to your house’s total. Winning is paramount, and using a clever loophole (the essay was abandoned, after all) is a justified means to come out on top.",
+          "house": "SLYTHERIN"
+        },
+        {
+          "key": "B",
+          "text": "Leave the essay where it is (or perhaps even return it to the student who wrote it) and accept whatever outcome the points tally brings. You’d rather lose honorably than claim a hollow victory through dishonest means, staying true to fair play.",
+          "house": "HUFFLEPUFF"
+        }
+      ]
+    },
+    {
+      "id": "FC_S_H_2",
+      "house_pair": ["SLYTHERIN", "HUFFLEPUFF"],
+      "stem": "For a class project, you and a partner put in unequal effort – you carried the project while your partner slacked off. Now that it’s presentation day, the teacher is about to praise you both equally.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Before the grades are finalized, discreetly let the professor know you did most of the work (or find another subtle way to make your greater contribution clear). You’re determined to get the recognition (and grade) you rightfully earned, even if it means your partner’s lack of effort is revealed.",
+          "house": "SLYTHERIN"
+        },
+        {
+          "key": "B",
+          "text": "Say nothing and allow both of you to share the top mark. You value harmony and kindness over credit – throwing your partner under the bus would feel wrong, and you take pride in the project’s success as a whole rather than needing individual applause.",
+          "house": "HUFFLEPUFF"
+        }
+      ]
+    },
+    {
+      "id": "FC_S_H_3",
+      "house_pair": ["SLYTHERIN", "HUFFLEPUFF"],
+      "stem": "A prestigious summer internship at the Ministry of Magic will be awarded to only one Hogwarts student. Both you and your close friend desperately want it and are qualified.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pull out all the stops to secure the spot for yourself – polish your application to perfection, mention your achievements prominently, maybe even use a family connection or tip to edge out the competition. Opportunities like this are meant to be seized personally, and your friend will understand it’s nothing personal, just ambition.",
+          "house": "SLYTHERIN"
+        },
+        {
+          "key": "B",
+          "text": "Help your friend with their application even as you work on yours, and agree that no matter who wins, you’ll support each other. Deep down you’d love the internship, but you refuse to undermine someone you care about; maintaining that trust and being fair means more than a resume boost.",
+          "house": "HUFFLEPUFF"
+        }
+      ]
+    },
+    {
+      "id": "FC_S_H_4",
+      "house_pair": ["SLYTHERIN", "HUFFLEPUFF"],
+      "stem": "While sneaking into the trophy room at night for a dare, your friend accidentally knocks over a suit of armor, causing a huge crash. You hear Filch the caretaker approaching, and if caught, your friend could be expelled for being out of bounds and causing damage.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Quickly whisper a false story to Filch (perhaps that you alone were chasing Peeves the Poltergeist and things got out of hand), or cast a quick reparo and disillusionment charm to cover up the mess. You’re ready to lie or manipulate the situation deftly to protect your friend (and yourselves) from severe punishment.",
+          "house": "SLYTHERIN"
+        },
+        {
+          "key": "B",
+          "text": "Urge your friend to come clean alongside you. You’ll face Filch and Professor McGonagall together, explain it was an accident, and accept the detention or penalty honestly. You believe owning up is the right thing to do, and you won’t abandon your friend in the process – honesty and accountability matter more than escaping blame.",
+          "house": "HUFFLEPUFF"
+        }
+      ]
+    },
+    {
+      "id": "FC_S_H_5",
+      "house_pair": ["SLYTHERIN", "HUFFLEPUFF"],
+      "stem": "The Quidditch team captaincy has opened up, and both you and another talented player are top contenders.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Quietly campaign for the role – you pull aside teammates to remind them of your superior record and perhaps hint at strategic “perks” if you’re captain. You might even downplay the other candidate’s abilities. Securing this leadership position is important for you, and you’re willing to be shrewd to earn your peers’ vote.",
+          "house": "SLYTHERIN"
+        },
+        {
+          "key": "B",
+          "text": "Refrain from any politicking and tell your teammates you’ll be content with whatever choice the team makes. You continue to train hard and even share tips with the other contender. Being captain would be nice, but you care more about the team being unified and doing what’s fair than about holding a title yourself.",
+          "house": "HUFFLEPUFF"
+        }
+      ]
+    },
+    {
+      "id": "FC_S_H_6",
+      "house_pair": ["SLYTHERIN", "HUFFLEPUFF"],
+      "stem": "During dinner at the Great Hall, a student from a rival house makes a cutting, public joke at the expense of your house’s Quidditch performance this year.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fire back with a razor-sharp retort that makes the whole hall chuckle and puts that student in their place – or perhaps plan a little prank for later that will remind them to think twice before insulting your house. You won’t let an insult slide, especially when your reputation’s on the line, and you know just how to retaliate cleverly.",
+          "house": "SLYTHERIN"
+        },
+        {
+          "key": "B",
+          "text": "Laugh it off good-naturedly or even applaud their wit, then maybe invite them for a friendly pick-up Quidditch match outside to prove your team’s spirit. You choose to respond with humor and warmth, turning the jab into an opportunity for camaraderie rather than escalating into mean-spirited revenge.",
+          "house": "HUFFLEPUFF"
+        }
+      ]
+    },
+
+    {
+      "id": "FC_S_R_1",
+      "house_pair": ["SLYTHERIN", "RAVENCLAW"],
+      "stem": "You’re working on a thesis for extra credit, but you desperately need a reference text from the Restricted Section. Only the Headmaster’s written approval would grant you access, which could take weeks — and the library closes in an hour.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Slip into the Restricted Section under the guise of reshelving books (or perhaps use a borrowed invisibility cloak) to grab the book tonight. You might also consider charming the librarian with a fabricated note. Either way, you’d rather bend the rules and get the crucial information now than wait and possibly lose your edge.",
+          "house": "SLYTHERIN"
+        },
+        {
+          "key": "B",
+          "text": "Decide to follow the proper process and seek permission, or find alternative sources. You spend the remaining hour meticulously searching the regular library stacks and plan to speak with your Head of House for approval first thing in the morning. You’re determined to get the knowledge legitimately, valuing the thorough and rule-abiding approach even if it requires patience.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+    {
+      "id": "FC_S_R_2",
+      "house_pair": ["SLYTHERIN", "RAVENCLAW"],
+      "stem": "In a stroke of ingenuity, you invent a new potion that grants the drinker extraordinary luck in spellcasting for a short period. It could be a breakthrough with significant advantages in duels or exams.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Keep the discovery secret (perhaps sharing only with a couple of your closest allies) and plan how to use it to your benefit. Whether it gives you a competitive edge in the next duel or leverage in bargaining, you value the power this hidden knowledge grants you and have no intention of giving it up.",
+          "house": "SLYTHERIN"
+        },
+        {
+          "key": "B",
+          "text": "Document your potion method and submit it to the Hogwarts library or even the Daily Prophet’s “New Discoveries” column. The thrill for you is in the discovery itself and contributing to magical knowledge. You’re less concerned about personal gain; it’s more satisfying to advance the art of potion-making and get intellectual credit for your work.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+    {
+      "id": "FC_S_R_3",
+      "house_pair": ["SLYTHERIN", "RAVENCLAW"],
+      "stem": "The school announces a challenging magical riddle competition – a test of logic, arcane knowledge, and cleverness – with a handsome prize for the winner. Every house is buzzing about it.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prepare to win by any means necessary. You quietly collect hints by chatting up a professor, consider forming a temporary alliance with a bright student (planning to outshine them later), and even devise ways to throw others off during the contest. Your eye is on the prestige of victory, and you’ll use strategy and shrewdness to ensure you come out on top.",
+          "house": "SLYTHERIN"
+        },
+        {
+          "key": "B",
+          "text": "Dive enthusiastically into practicing riddles and studying obscure lore purely for the joy of it. You intend to compete fairly, showcasing your knowledge and creativity. While winning would be wonderful, you’re mostly excited by the opportunity to stretch your mind and solve fascinating puzzles – the intellectual journey matters more than the prize.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+    {
+      "id": "FC_S_R_4",
+      "house_pair": ["SLYTHERIN", "RAVENCLAW"],
+      "stem": "A renowned magical inventor comes to speak at Hogwarts. After the lecture, students crowd around, hoping to impress them or gain advice.",
+      "options": [
+        {
+          "key": "A",
+          "text": "When you get your moment, you charm the inventor with compliments and subtly highlight your own accomplishments. You might hint at your ambitious projects and drop your name in hopes of securing a future contact or mentorship. Networking shrewdly with influential figures comes naturally to you, and you see this as a chance to boost your prospects.",
+          "house": "SLYTHERIN"
+        },
+        {
+          "key": "B",
+          "text": "You approach and ask thoughtful, penetrating questions about the theories and challenges behind their inventions. Rather than talking about yourself, you soak up their insights. You’re more interested in learning something new and meaningful from this genius than in being remembered by them – the knowledge gained is the real reward.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+    {
+      "id": "FC_S_R_5",
+      "house_pair": ["SLYTHERIN", "RAVENCLAW"],
+      "stem": "Professor Flitwick assigns you to work with a partner who is struggling with Charms, and your final project together will determine both your grades.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Take charge and handle all the complex parts of the project yourself. You’ll give your partner a minor role or perhaps quietly redo their work if it’s subpar. Your priority is to secure an Outstanding grade and impress the professor, even if it means effectively working alone and letting your partner ride your coattails.",
+          "house": "SLYTHERIN"
+        },
+        {
+          "key": "B",
+          "text": "Embrace the teaching challenge – you spend extra time coaching your partner on wand movements and theory, even if it’s frustrating at first. You reason that by helping them improve, you’ll both learn more, and the project will reflect a genuine joint effort. The process of elevating both understanding and performance appeals to your love of learning.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+    {
+      "id": "FC_S_R_6",
+      "house_pair": ["SLYTHERIN", "RAVENCLAW"],
+      "stem": "Professor McGonagall introduces an unconventional new approach in Transfiguration class: student-led magical experimentation, which could deepen understanding but has initially led to messy mistakes and lower grades for many.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stick to the traditional methods you know excel. You politely comply in class but on your own, you continue practicing the old way from textbooks to ensure your marks stay top-notch. Privately, you even encourage a couple of friends to do the same, so you maintain a competitive edge by not risking this experimental folly.",
+          "house": "SLYTHERIN"
+        },
+        {
+          "key": "B",
+          "text": "Embrace the new learning approach wholeheartedly. You’re intrigued by the creative freedom it offers and dive into the experimental projects despite the early setbacks. To you, the temporary dip in grades is worth the unique insight and innovation you might achieve by thinking outside the box and challenging the usual way of doing things.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+
+    {
+      "id": "FC_H_R_1",
+      "house_pair": ["HUFFLEPUFF", "RAVENCLAW"],
+      "stem": "Your best friend is feeling down after a harsh failure in Herbology, and they ask if you can spend the evening keeping them company in the common room. Unfortunately, you also have a crucial Magical Theory exam the next morning that you’ve not finished studying for.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Shut your textbook and make two mugs of hot chocolate. You sit with your friend all evening, offering comfort and support. To you, being a loyal friend in their time of need outweighs the risk of going into the exam a bit underprepared – you value people’s feelings and trust that kindness is more important in the long run.",
+          "house": "HUFFLEPUFF"
+        },
+        {
+          "key": "B",
+          "text": "Gently explain to your friend that you care, but you must devote this evening to studying. You promise to spend time with them tomorrow after the exam, maybe even helping them with Herbology. You feel your friend will be okay for one night, and it’s more rational to ensure you’re fully prepared academically for the important test.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+    {
+      "id": "FC_H_R_2",
+      "house_pair": ["HUFFLEPUFF", "RAVENCLAW"],
+      "stem": "Professor Snape offers students a choice for the term Potions project: work in a group of four or tackle the project solo. The project is challenging, and the outcome will heavily influence your final grade.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Join a group of classmates to collaborate. You believe in teamwork – pooling everyone’s efforts and strengths to share the burden sounds both efficient and enjoyable. You’re ready to do your fair share (or more) and help the team succeed together, valuing the camaraderie and fairness of group work.",
+          "house": "HUFFLEPUFF"
+        },
+        {
+          "key": "B",
+          "text": "Opt to work alone on the project. You relish the freedom to explore your own ideas without having to compromise, and you trust your personal work ethic and knowledge. The prospect of single-handedly creating something impressive is exciting, and you don’t mind the extra load if it means you can delve deep into the topic in your own way.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+    {
+      "id": "FC_H_R_3",
+      "house_pair": ["HUFFLEPUFF", "RAVENCLAW"],
+      "stem": "You witness a mix-up in the greenhouse: one of the Hufflepuff students accidentally ruined a batch of a Slytherin student’s potion ingredients but, panicked, she blamed a Ravenclaw who now faces undeserved detention.",
+      "options": [
+        {
+          "key": "A",
+          "text": "After class, you quietly console the wrongfully accused Ravenclaw and perhaps help replace the lost ingredients from your own stash, but you don’t publicly expose the lie. You handle it discreetly by encouraging the guilty Hufflepuff to come clean on their own. Keeping the peace and sparing everyone public embarrassment feels more important than playing detective, as long as the situation can be made right eventually.",
+          "house": "HUFFLEPUFF"
+        },
+        {
+          "key": "B",
+          "text": "You feel compelled to set the record straight immediately. You inform Professor Sprout of exactly what you saw, providing every detail objectively. Even if it causes a bit of an upset, you believe the truth and fairness in punishment must prevail. Accuracy and justice trump avoiding social discomfort, so you ensure the real mistake-maker is held accountable and the innocent student is cleared.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+    {
+      "id": "FC_H_R_4",
+      "house_pair": ["HUFFLEPUFF", "RAVENCLAW"],
+      "stem": "Your favorite meteor shower of the decade is occurring tonight, but peak viewing is at 1 AM – well past curfew. You’re dying to sketch the stars and take notes for Astronomy class (and personal fascination), but getting caught out of bed is a major rule violation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Begrudgingly stay in your dormitory, perhaps convincing a prefect to let you watch from an enchanted window for a short while before bed. As much as you yearn to see the meteor shower in its full glory, you follow the rules and avoid causing trouble for yourself (and others who might cover for you). Safety and obedience win out, even if it means you miss an extraordinary sight.",
+          "house": "HUFFLEPUFF"
+        },
+        {
+          "key": "B",
+          "text": "When everyone’s asleep, sneak up to the Astronomy Tower with your telescope and journal anyway. The pull of curiosity and the rare chance to witness and study this celestial event firsthand outweigh the risk in your mind. You take careful precautions to avoid detection, convinced that pursuing this knowledge is worth bending a school rule just this once.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+    {
+      "id": "FC_H_R_5",
+      "house_pair": ["HUFFLEPUFF", "RAVENCLAW"],
+      "stem": "This Saturday, two events are scheduled at the same time: a volunteer shift you signed up for in Hogsmeade to help with a charity drive, and the finale of the Wizarding Chess Championship that you qualified for after months of matches.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Go to Hogsmeade and fulfill your promise to help at the charity drive for St. Mungo’s Hospital. You feel a duty to honor your commitment and assist those in need alongside your friends; the satisfaction of helping others is more meaningful to you than any trophy, even if it’s disappointing to forfeit the chess finals.",
+          "house": "HUFFLEPUFF"
+        },
+        {
+          "key": "B",
+          "text": "Attend the Wizarding Chess final that you worked so hard to reach. You arrange for someone else to cover your charity shift if possible, explaining that you’ll contribute in another way later. In your heart, you can’t pass up the opportunity to test your strategic skills at the highest level – the intellectual thrill and challenge of the game is where you truly shine.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    },
+    {
+      "id": "FC_H_R_6",
+      "house_pair": ["HUFFLEPUFF", "RAVENCLAW"],
+      "stem": "Professor Sprout assigns a tedious but necessary task: cleaning out a greenhouse overrun with stubby filibuster vines and gnarled roots. It could take all afternoon to clear it manually, but magic might expedite it with some creativity.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Roll up your sleeves and start clearing the vines by hand (and wand for basic pruning), possibly whistling while you work. You invite a few classmates to join in, turning it into a team effort. The manual labor doesn’t bother you – in fact, you find it honest, calming work and take pride in doing the job thoroughly alongside friends.",
+          "house": "HUFFLEPUFF"
+        },
+        {
+          "key": "B",
+          "text": "Brainstorm a smarter solution before getting your hands dirty. Perhaps you devise a series of clever charm sequences to make the vines untangle and leap into disposal sacks on their own, or enchant tools to do the digging. You’d rather solve the problem with ingenuity and efficient spellwork, even if it means experimenting a bit to get the magic just right, saving everyone time and effort.",
+          "house": "RAVENCLAW"
+        }
+      ]
+    }
+  ]
+}

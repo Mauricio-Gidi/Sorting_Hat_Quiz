@@ -1,0 +1,70 @@
+{
+  "traits": [
+    "COURAGE",
+    "AMBITION",
+    "LOYALTY",
+    "INTELLECT",
+    "CURIOSITY",
+    "CONFORMITY",
+    "RISK_TAKING",
+    "COMPASSION",
+    "ASSERTIVENESS",
+    "DILIGENCE"
+  ],
+  "houses": [
+    "GRYFFINDOR",
+    "RAVENCLAW",
+    "HUFFLEPUFF",
+    "SLYTHERIN"
+  ],
+  "weights": {
+    "GRYFFINDOR": {
+      "COURAGE": 0.8,
+      "AMBITION": 0.51,
+      "LOYALTY": 0.64,
+      "INTELLECT": 1.17,
+      "CURIOSITY": 0.12,
+      "CONFORMITY": -1.8,
+      "RISK_TAKING": 3.24,
+      "COMPASSION": 1.1,
+      "ASSERTIVENESS": 0.36,
+      "DILIGENCE": 0.05
+    },
+    "RAVENCLAW": {
+      "COURAGE": 0.35,
+      "AMBITION": 0.51,
+      "LOYALTY": -0.16,
+      "INTELLECT": 3.38,
+      "CURIOSITY": 0.17,
+      "CONFORMITY": -1.8,
+      "RISK_TAKING": 0.54,
+      "COMPASSION": -0.799,
+      "ASSERTIVENESS": 0.08,
+      "DILIGENCE": 0.16
+    },
+    "HUFFLEPUFF": {
+      "COURAGE": 0.35,
+      "AMBITION": -2.38,
+      "LOYALTY": 2.72,
+      "INTELLECT": 1.17,
+      "CURIOSITY": -0.08,
+      "CONFORMITY": -0.7,
+      "RISK_TAKING": 0.54,
+      "COMPASSION": 2.1,
+      "ASSERTIVENESS": 0.08,
+      "DILIGENCE": 0.19
+    },
+    "SLYTHERIN": {
+      "COURAGE": 0.35,
+      "AMBITION": 2.72,
+      "LOYALTY": -0.16,
+      "INTELLECT": 1.3,
+      "CURIOSITY": 0.12,
+      "CONFORMITY": -0.7,
+      "RISK_TAKING": 1.98,
+      "COMPASSION": -1.5,
+      "ASSERTIVENESS": 0.36,
+      "DILIGENCE": 0.16
+    }
+  }
+}
