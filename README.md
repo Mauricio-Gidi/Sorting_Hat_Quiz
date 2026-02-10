@@ -1,4 +1,4 @@
-# Sorting Hat App (Java Swing)
+# Sorting Hat App
 
 A desktop Java Swing quiz that sorts the user into a Hogwarts house and displays house probabilities.
 
