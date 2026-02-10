@@ -84,7 +84,7 @@ OpenAI (2025) ChatGPT (Version 5.1) [Large language model]. Available at: https:
 
 International Personality Item Pool (n.d.) IPIP: International Personality Item Pool. Available at: https://ipip.ori.org/index.htm  
 (Accessed: 5 December 2025).  
-(This source was cited as part of ChatGPT’s internal reference usage and was independently accessed and verified by the student.)
+(This source was cited as part of ChatGPT’s internal reference usage and was independently accessed and verified.)
 
 ## AI Use Statement (Resources Directory)
 Everything inside the `resources/` directory was created with help of ChatGPT (OpenAI, 2025), including:
